@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+          }
+
+          .container {
+            width: 50%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          }
+
+          label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registrasi Kendaraan Anda</h2>
+        <form action="submit_form"method="post">
+            <label for="status">Status</label><br>
+            <input type="checkbox" name="mahasiswa"> Mahasiswa
+            <input type="checkbox" name="dosen">Dosen 
+            <br>
+            <br>
+            <label for="nim/nidn">NIM/NID</label>
+            <input type="text"name="nim/nidn"required>
+            <br>
+            <br>
+            <label for="nama_lengkap">Nama Lengkap :</label>
+            <input type="text"name="nama_lengkap"required>
+            <br>
+            <br>
+            <label for="prodi">Prodi</label>
+            <select value="">
+                <option name="" id="">Pilih Prodi</option>
+                <option name="" id="">Teknik Informatika</option>
+                <option name="" id="">Sistem Informasi</option>
+                <option name="" id="">Bisnis Digital</option>
+            </select>
+            <br>
+            <br>
+            <label for="jenis_kendaraan">Jenis Kendaraan</label><br>
+            <input type="checkbox" name="motor">Motor
+            <input type="checkbox" name="mobil">Mobil 
+            <br>
+            <br>
+            <label for="NoPol">NoPol :</label>
+            <input type="text"name="NoPol"required>
+            <br>
+            <br>
+            <label for="merk">Merk :</label>
+            <input type="text"name="merk"required>
+            <br>
+            <br>
+            <label for="upload_stnk">Upload STNK :</label>
+            <input type="text"name="upload_stnk"required>
+            <br>
+            <br>
+            <button type="Submit"><b>Daftar</b></button>
+            <button type="Reset"><b>Browse</b></button>
+    </div>
+</body>
+</html>
