@@ -1,0 +1,128 @@
+        
+            /* Custom CSS */
+ 
+
+            .card {
+                transition: transform 0.2s, box-shadow 0.3s;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                background-color: #343a40;
+                color: #fff
+            }
+
+            .card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+
+            /* Custom Form Styles */
+            form {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            /* Custom Footer Styles */
+            footer {
+                margin-top: 20px;
+                padding: 20px;
+                background-color: #343a40;
+                color: #fff;
+            }
+
+            /* Custom Pagination Styles */
+            .pagination {
+                justify-content: center;
+                margin-top: 20px;
+            }
+
+            /* Custom Color Styles */
+
+
+            .card {
+                border: 2px solid #007bff;
+            }
+
+            .btn-primary {
+                background-color: #007bff;
+                border-color: #007bff;
+            }
+
+            .btn-primary:hover {
+                background-color: #0056b3; /* Darker shade for hover effect */
+
+            }
+
+                /* Custom Color Styles */
+        .navbar {
+
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+         /* Custom Table Styles */
+         table {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        /* Maps */
+
+        .map-container{
+            overflow:hidden;
+            position:relative;
+            height:0;
+            padding: 50px;
+          }
+          .map-container iframe{
+            position:absolute;
+          }
+
+        /* product */
+        h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+          }
+
+        .ayam{
+            font-size: 24px;
+            background-color: #343a40;
+            color: bisque;
+            
+        }
+        .card-text{
+            font-size: 20px;
+        }
+
+        .card-title{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .table{
+            font-size: 20px;
+        }
+
+        /* google maps */
+ 
+
+       .card1{
+        background-color: aliceblue;
+       }
+
+       .card2{
+        background-color: bisque;
+        color: #343a40;
+       }

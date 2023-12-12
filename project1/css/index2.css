@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #212529 !important;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-container label {
+    color: #212529;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.map-container {
+    height: 500px;
+    margin-top: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 15px 0;
+}
