@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjumlahan 2 Bilangan</title>
+</head>
+<body>
+    <!-- Bilangan 1 -->
+    <label for="bilangan1"></label>
+    <input type="number" name="bilangan1" id="bilangan1" onchange="hasil()">
+    <p>+</p>
+
+    <!-- Bilangan 2 -->
+    <label for="bilangan2"></label>
+    <input type="number" name="bilangan2" id="bilangan2" onchange="hasil()">
+    <p>Hasil : <span id="hasil"></span></p>
+
+    <script>
+        // mencari hasil
+        function hasil(){
+            let bilangan1 = parseFloat(document.getElementById("bilangan1").value);     
+            let bilangan2 = parseFloat(document.getElementById("bilangan2").value);
+            let rumusbilangan = bilangan1 + bilangan2;
+           document.getElementById("hasil").innerHTML = rumusbilangan;
+        }
+    </script>
+</body>
+</html>
